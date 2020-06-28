@@ -1,1 +1,1 @@
-Пример работы с apache zookeeper.
+РџСЂРёРјРµСЂ СЂР°Р±РѕС‚С‹ СЃ apache zookeeper.
