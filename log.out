@@ -1,0 +1,44 @@
+Client environment:zookeeper.version=3.6.1--104dcb3e3fb464b30c5186d229e00af9f332524b, built on 04/21/2020 15:01 GMT
+Client environment:host.name=DEVELOPER
+Client environment:java.version=13.0.1
+Client environment:java.vendor=Oracle Corporation
+Client environment:java.home=C:\Program Files\Java\jdk-13.0.1
+Client environment:java.class.path=D:\Projects\apache-zookeeper\target\classes;C:\Users\User\.m2\repository\org\apache\zookeeper\zookeeper\3.6.1\zookeeper-3.6.1.jar;C:\Users\User\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\User\.m2\repository\org\apache\zookeeper\zookeeper-jute\3.6.1\zookeeper-jute-3.6.1.jar;C:\Users\User\.m2\repository\org\apache\yetus\audience-annotations\0.5.0\audience-annotations-0.5.0.jar;C:\Users\User\.m2\repository\io\netty\netty-handler\4.1.48.Final\netty-handler-4.1.48.Final.jar;C:\Users\User\.m2\repository\io\netty\netty-common\4.1.48.Final\netty-common-4.1.48.Final.jar;C:\Users\User\.m2\repository\io\netty\netty-resolver\4.1.48.Final\netty-resolver-4.1.48.Final.jar;C:\Users\User\.m2\repository\io\netty\netty-buffer\4.1.48.Final\netty-buffer-4.1.48.Final.jar;C:\Users\User\.m2\repository\io\netty\netty-transport\4.1.48.Final\netty-transport-4.1.48.Final.jar;C:\Users\User\.m2\repository\io\netty\netty-codec\4.1.48.Final\netty-codec-4.1.48.Final.jar;C:\Users\User\.m2\repository\io\netty\netty-transport-native-epoll\4.1.48.Final\netty-transport-native-epoll-4.1.48.Final.jar;C:\Users\User\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.48.Final\netty-transport-native-unix-common-4.1.48.Final.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\User\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+Client environment:java.library.path=C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\NetSarang\Xshell 6\;D:\app\User\product\12.1.0\client_1;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\APPS\Anaconda3;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\DEVELOPER_SOFT\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\APPS\hadoop\bin;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Deveop apps\apache-zookeeper-3.6.1\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.2\bin;;C:\Program Files\JetBrains\PyCharm 2018.3.2\bin;;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm;.
+Client environment:java.io.tmpdir=C:\Users\User\AppData\Local\Temp\
+Client environment:java.compiler=<NA>
+Client environment:os.name=Windows 10
+Client environment:os.arch=amd64
+Client environment:os.version=10.0
+Client environment:user.name=User
+Client environment:user.home=C:\Users\User
+Client environment:user.dir=D:\Projects\apache-zookeeper
+Client environment:os.memory.free=504MB
+Client environment:os.memory.max=8172MB
+Client environment:os.memory.total=512MB
+Initiating client connection, connectString=localhost sessionTimeout=2000 watcher=com.baeldung.zookeeper.connection.ZKConnection$1@3f0ee7cb
+Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+jute.maxbuffer value is 1048575 Bytes
+zookeeper.request.timeout value is 0. feature enabled=false
+Canonicalized address to kubernetes.docker.internal
+Opening socket connection to server localhost/127.0.0.1:2181.
+SASL config status: Will not attempt to authenticate using SASL (unknown error)
+Socket connection established, initiating session, client: /127.0.0.1:50206, server: localhost/127.0.0.1:2181
+Session establishment request sent on localhost/127.0.0.1:2181
+Session establishment complete on server localhost/127.0.0.1:2181, session id = 0x1000fdc63e20011, negotiated timeout = 4000
+Update node /test
+Reading reply session id: 0x1000fdc63e20011, packet:: clientPath:null serverPath:null finished:false header:: 1,3  replyHeader:: 1,71,0  request:: '/test,T  response:: s{10,69,1592159982829,1592765771009,19,0,0,0,15,0,10} 
+Got notification session id: 0x1000fdc63e20011
+Got WatchedEvent state:SyncConnected type:NodeDataChanged path:/test for session id 0x1000fdc63e20011
+Reading reply session id: 0x1000fdc63e20011, packet:: clientPath:null serverPath:null finished:false header:: 2,5  replyHeader:: 2,72,0  request:: '/test,#557064617465642076616c75652034,19  response:: s{10,72,1592159982829,1592765820509,20,0,0,0,15,0,10} 
+Closing session: 0x1000fdc63e20011
+Closing client for session: 0x1000fdc63e20011
+Reading reply session id: 0x1000fdc63e20011, packet:: clientPath:null serverPath:null finished:false header:: 3,-11  replyHeader:: 3,73,0  request:: null response:: null
+Disconnecting client for session: 0x1000fdc63e20011
+An exception was thrown while closing send thread for session 0x1000fdc63e20011.
+EndOfStreamException: Unable to read additional data from server sessionid 0x1000fdc63e20011, likely server has closed socket
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:348)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1262)
+Session: 0x1000fdc63e20011 closed
+EventThread shut down for session: 0x1000fdc63e20011
